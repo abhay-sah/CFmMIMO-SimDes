@@ -11,7 +11,7 @@ This describes the functionality of cell-free massive MIMO simulator created at 
 2. Open the Command Window.
 3. Use the `git clone` command to clone the repository:
    ```matlab
-   git clone https://github.com/abhay-sah/CFmMIMO.git
+   git clone https://github.com/abhay-sah/CFmMIMO-SimDes.git
    ```
 
 ### 2. **Copy Required Helper Files**
