@@ -18,7 +18,7 @@ This describes the functionality of cell-free massive MIMO simulator created at 
 
 1. Open the Matlab Example:
    ```matlab
-   openExample('5g/EvaluatePerformanceOfCellFreemMIMONetworksExample')
+   openExample('5g/EvaluatePerformanceOfCellFreemMIMONetworks')
    ```
 2. Locate the following files:
    - `helperNRMetricsVisualizer.m`
@@ -32,7 +32,7 @@ This describes the functionality of cell-free massive MIMO simulator created at 
 ### 3. **Open the Project in MATLAB**
 
 1. Navigate to the cloned repository directory in MATLAB.
-2. Open the `Pre6GCellFreeSimulationExample.mlx` file and run it.
+2. Open the `Main.m` file and run it.
 
 ### 4. **Tweaking Parameters**
 
