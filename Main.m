@@ -1,8 +1,8 @@
-%% Pre 6G Cell Free Simulation Example
-% This example shows how to use pre6GCPU, pre6GAP and pre6GUE in system-level 
-% simulation. The example models a 1Km x 1Km area consisting of uniformly distributed 
+%% Pre 6G Cell Free Simulation
+% This shows how to use pre6GCPU, pre6GAP and pre6GUE in system-level 
+% simulation. The models a 1Km x 1Km area consisting of uniformly distributed 
 % access point (AP) nodes and a set of user equipment (UE) nodes connected to 
-% its closest AP node. The example also models channel impairments that you can 
+% its closest AP node. This file models channel impairments that you can 
 % customize.
 %% Scenario Configuration
 % Check if the Communications Toolbox Wireless Network Simulation Library support 
@@ -137,7 +137,7 @@ ueStats = UEs.statistics();
 % Compare the achieved value for system performance indicators with their theoretical 
 % peak values (considering zero overheads). The performance indicators displayed 
 % are the achieved data rate (UL and DL), the achieved spectral efficiency (UL 
-% and DL), and the achieved block error rate (UL and DL). This example calculates 
+% and DL), and the achieved block error rate (UL and DL). This calculates 
 % the peak values as per 3GPP TR 37.910.
 
  displayPerformanceIndicators(metricsVisualizer);
